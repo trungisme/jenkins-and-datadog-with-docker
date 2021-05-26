@@ -1,0 +1,35 @@
+version: "3.9"
+services:
+    jenkins:
+        build: jenkins
+        container_name: jenkins
+        privileged: true
+        user: root
+        environment:
+            JAVA_OPTS: -Djenkins.install.runSetupWizard=false
+            DOCKER_HOST: tcp://host.docker.internal:2375
+            DATADOG_HOST: datadog
+        restart: always
+        ports:
+            - 8080:8080
+            - 50000:50000
+        volumes:
+            - ./jenkins/jenkins_home:/var/jenkins_home
+
+    datadog:
+        container_name: datadog
+        image: datadog/agent
+        user: root
+        ports:
+            - 8125:8125/udp
+        links:
+            - jenkins
+        environment:
+            DD_API_KEY: ${DD_API_KEY}
+            DD_SITE: datadoghq.com
+            DD_LOGS_ENABLED: "true"
+            DD_LOGS_CONFIG_CONTAINER_COLLECT_ALL: "true"
+            DD_LOGS_CONFIG_DOCKER_CONTAINER_USE_FILE: "true"
+            DD_DOGSTATSD_NON_LOCAL_TRAFFIC: "true"
+            DD_APM_ENABLED: "true"
+            DOCKER_HOST: tcp://host.docker.internal:2375

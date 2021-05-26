@@ -1,0 +1,6 @@
+workflow-aggregator
+git
+docker-plugin
+docker-workflow
+datadog
+strict-crumb-issuer
