@@ -6,21 +6,21 @@
 
 <br />
 <p align="center">
-    <a href="https://docs.docker.com/compose/">
-        <img src="img/docker-compose.png" alt="Logo" width="80" height="80">
-    </a>
-    <a href="https://www.datadoghq.com/">
-        <img src="img/datadog.png" alt="Logo" width="80" height="80">
-    </a>
-    <a href="https://www.jenkins.io/">
-        <img src="img/jenkins.png" alt="Logo" width="80" height="80">
-    </a>
+<a href="https://docs.docker.com/compose/">
+    <img src="img/docker-compose.png" alt="Logo" width="80" height="80">
+</a>
+<a href="https://www.datadoghq.com/">
+    <img src="img/datadog.png" alt="Logo" width="80" height="80">
+</a>
+<a href="https://www.jenkins.io/">
+    <img src="img/jenkins.png" alt="Logo" width="80" height="80">
+</a>
 
-    <h3 align="center">Jenkins with Datadog using Docker Compose</h3>
+<h3 align="center">Jenkins with Datadog using Docker Compose</h3>
 
-    <p align="center">
-        An example of how to integrate Datadog with Jenkins using Docker Compose
-    </p>
+<p align="center">
+    An example of how to integrate Datadog with Jenkins using Docker Compose
+</p>
 </p>
 
 
