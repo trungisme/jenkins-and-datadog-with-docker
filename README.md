@@ -3,7 +3,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Licence][licence-shield]][licence-url]
 
-
 <br />
 <p align="center">
 <a href="https://docs.docker.com/compose/">
@@ -110,11 +109,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/trungisme/jenkins-and-datadog-with-docker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/trungisme/jenkins-and-datadog-with-docker.svg?style=for-the-badge
 [forks-url]: https://github.com/trungisme/jenkins-and-datadog-with-docker/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/trungisme/jenkins-and-datadog-with-docker.svg?style=for-the-badge
 [stars-url]: https://github.com/trungisme/jenkins-and-datadog-with-docker/stargazers
-[licence-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[licence-shield]: https://img.shields.io/github/license/trungisme/jenkins-and-datadog-with-docker.svg?style=for-the-badge
 [licence-url]: https://github.com/trungisme/jenkins-and-datadog-with-docker/blob/master/LICENSE.txt
+
+
